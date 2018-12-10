@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Post } from './model/post';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'blog3';
+  title = 'blog 4';
 }

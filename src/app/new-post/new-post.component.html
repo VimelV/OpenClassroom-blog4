@@ -1,0 +1,16 @@
+<div class="row">
+  <form [formGroup]="postForm" (ngSubmit)="onSubmitForm()">
+    <h1>Nouveau post</h1>
+    <br/>
+    <div class="form-group">
+      <label for="title">Titre :</label>
+      <input type="text" id="title" formControlName="title" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="content">Contenu :</label>
+      <textarea style="width:500px; height: 150;" type="textarea" id="content" formControlName="content" class="form-control">
+      </textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Enregister</button>
+  </form>
+</div>
